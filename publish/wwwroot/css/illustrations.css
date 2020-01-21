@@ -1,0 +1,144 @@
+.reduced-it-costs {
+    min-height: 60vh;
+    background: url(/images/reduced-it.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+.collaborative-background {
+    background-image: url(/images/collaborative.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+.background-right {
+    background-image: url(/images/background-right.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    background-color: #efefef;
+    background-repeat: no-repeat;
+}
+
+.background-left {
+    background-image: url(/images/background-left.jpg);
+    background-size: cover;
+    background-position: left bottom;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+}
+
+.background-centralized {
+    background-image: url(/images/centralized.png);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+.background-remote-temp {
+    background-image: url(/images/remote-worker.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+.h-percent {
+    text-align: center;
+    font-size: 160px;
+    opacity: 0.5;
+    line-height: 2em;
+}
+
+.up-arrows {
+    background-image: url(/images/scalability.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center bottom;
+    min-height: 400px;
+}
+
+.background-security {
+    background: url(/images/security-2.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+.background-security-1 {
+    background: url(/images/security.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+.background-architecture {
+    background: url(/images/architecture.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+.background-old-server {
+    background: url(/images/old-server.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+.background-backup {
+    background: url(/images/backup.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+.background-roi {
+    background: url(/images/roi.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+.background-supercharge {
+    background: url(/images/supercharge.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+.problem-statement {
+    background: url(/images/down.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50% 50%;
+    min-height: 50vh;
+}
+
+@media only screen and (max-width: 992px) {
+    .reduced-it-costs, .collaborative-background, 
+    .background-centralized, .background-remote-temp, .background-security, .background-security-1,
+    .background-architecture, .background-old-server, .background-backup, .background-roi, .background-supercharge,
+    .problem-statement
+    {background-size:70%;
+        min-height:40vh;}
+}
+
+@media only screen and (max-width: 575px) {
+    .reduced-it-costs, .collaborative-background, 
+    .background-centralized, .background-remote-temp, .background-security, .background-security-1,
+    .background-architecture, .background-old-server, .background-backup, .background-roi, .background-supercharge,
+    .problem-statement
+    {min-height:35vh;}
+}

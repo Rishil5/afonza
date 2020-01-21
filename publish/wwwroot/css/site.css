@@ -1,0 +1,572 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  min-height: 60px;
+  line-height: 1.5em;
+  font-size: 0.8em;
+  color: #000 !important;
+  /* Vertically center the text there */
+}
+
+.contact-options i {
+  font-size: 45px;
+  color: #888;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.contact-options a {
+  transition: all 0.2s linear;
+}
+
+.contact-options a:hover {
+  transition: all 0.2s linear;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2)
+}
+
+h3 em {
+  color: #C5D351;
+  font-style: normal
+}
+
+.footer a {
+  color: #272F3D;
+}
+
+a {
+  color: #2A4E8C;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #00f;
+}
+
+.footer b {
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+
+
+.nav-link {
+  padding: 1rem 1rem !important
+}
+
+.nav-link i {
+  font-size: 25px;
+  display: block;
+  margin: 5px;
+  color: #888;
+}
+
+footer .nav-link {
+  width: 14.2%;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.problem-card {
+  background: #222;
+  border: 0px;
+}
+
+.sub-nav-services {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 5;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000 !important;
+  transition: 0.2s linear all;
+}
+
+footer .navbar a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+footer .navbar a:hover {
+  color: blue;
+}
+
+.navbar-collapse .navbar-nav>.active a {
+  color: black !important;
+  border-bottom: 3px solid rgb(163, 210, 85);
+}
+
+.dropdown-menu .active {
+  background: #ddd;
+  color: black !important;
+}
+
+.mapboxgl-map {
+  width: 100%;
+  height: 50vh;
+}
+
+.dropdown-item {
+  border-bottom: 0px !important;
+}
+
+footer .navbar-light .navbar-nav .active {
+  background: rgb(163, 210, 85);
+  background: linear-gradient(150deg, rgba(163, 210, 85, 1) 0%, rgba(72, 170, 214, 1) 100%);
+  color: #fff !important;
+  text-decoration: none;
+}
+
+footer .navbar-light .navbar-nav .active a {
+  color: #fff !important;
+  font-weight: Bold;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  border-radius: 0px;
+}
+
+.dropdown-item:hover>.dropdown-menu {
+  display: block;
+}
+
+.navbar-nav .nav-link {
+  display: inline-block;
+}
+
+.ml-auto {
+  display: inline-block!important;
+}
+
+.dropdown>.dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.background-alternative {
+  background: #efefef;
+}
+
+.background-0 {
+  min-height: 70vh;
+  background-image: url(../images/background-0.jpg);
+  background-size: cover;
+}
+
+.background-1 {
+  min-height: 70vh;
+  background-image: url(../images/background-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-home {
+  min-height: 60vh;
+  background-image: url(../images/homepage-green.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom center;
+}
+
+.background-2 {
+  min-height: 70vh;
+  background-image: url(../images/background-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-3 {
+  min-height: 70vh;
+  background-image: url(../images/background-3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-vid {
+  min-height: 70vh;
+  background-image: url(../images/background-3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-4 {
+  min-height: 70vh;
+  background-image: url(../images/background-4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-5 {
+  min-height: 70vh;
+  background-image: url(../images/background-5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-6 {
+  min-height: 70vh;
+  background-image: url(../images/background-6.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-7 {
+  min-height: 70vh;
+  background-image: url(../images/background-7.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-8 {
+  min-height: 70vh;
+  background-image: url(../images/background-8.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-9 {
+  min-height: 70vh;
+  background-image: url(../images/background-9.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-10 {
+  min-height: 70vh;
+  background-image: url(../images/background-10.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-11 {
+  min-height: 70vh;
+  background-image: url(../images/background-11.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-12 {
+  min-height: 70vh;
+  background-image: url(../images/background-12.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-13 {
+  min-height: 70vh;
+  background-image: url(../images/background-13.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.background-dark {
+  background: #222;
+}
+
+
+
+.fa-2x {
+  padding-bottom: 5px;
+  padding-top: 3px;
+  background: rgb(9, 145, 199);
+  background: linear-gradient(325deg, rgba(9, 145, 199, 1) 0%, rgba(187, 211, 80, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background-medium {
+  background: #ccc;
+}
+
+.profile-pic {
+  border-radius: 100px;
+  background-color: #000;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 20px;
+  background-size: cover;
+  margin-bottom: 70px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Trebuchet MS','Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.footer {
+  background: #aaa;
+  border-top: none !important;
+  ;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(163, 210, 85) !important;
+  box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
+  transition: linear 0.2s all;
+}
+
+.navbar-nav .nav-link:hover i {
+  color: rgb(163, 210, 85) !important;
+  transition: linear 0.2s all;
+}
+
+.active .sub-nav-svg {
+  fill: #fff;
+  max-width: 35px;
+  margin: 10px;
+}
+
+.sub-nav-svg {
+  fill: #888;
+  max-width: 35px;
+  margin: 10px;
+}
+
+.sub-nav-svg-2 {
+  fill: #888;
+  max-width: 16px;
+  margin: 0px 5px 2px 0px
+}
+
+.sub-nav-svg-large {
+  fill: #888;
+  max-width: 64px;
+  margin: 20px;
+}
+
+.list-group-item {
+  background-color: transparent !important;
+}
+
+.gradient-card, .btn-primary {
+  background: rgb(163, 210, 85);
+  background: linear-gradient(150deg, rgba(163, 210, 85, 1) 0%, rgba(72, 170, 214, 1) 100%);
+  color: #fff;
+  box-shadow: 2px 7px 20px rgba(33, 74, 94, 0.2);
+  border: 0px;
+  transition: 0.15s linear all;
+  text-align: center;
+}
+
+.gradient-card:hover, .btn-primary:hover {
+  color: #fff;
+  box-shadow: 2px 4px 10px rgba(33, 74, 94, 0.3);
+  transition: 0.15s linear all;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+.bottombar {
+  border-top: 1px solid #bbb;
+}
+
+/*.navbar-collapse .navbar-nav > .nav-item{transition:0.2s all linear;}
+.navbar-collapse .navbar-nav > .nav-item:hover{box-shadow: 0px 20px 20px rgba(0,0,0,0.2);transition:0.2s all linear;margin-top:-5px;color:#000 !important;}
+*/
+
+.sub-nav-services .nav-link {
+  transition: 0.2s all linear;
+}
+
+.sub-nav-services .nav-link:hover {
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.2s all linear;
+  margin-top: -5px;
+  color: #000 !important;
+}
+
+.card-deck a.card {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.sub-nav-services .nav-link:hover i {
+  color: #000;
+}
+
+.col-lg-6 a.card {
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  padding-bottom: 5px;
+  transition: 0.2s linear all;
+}
+
+.col-lg-6 a.card:hover {
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+  transition: 0.2s linear all;
+}
+
+.footer-row {
+  display: block;
+}
+
+.display-2, .display-3 {
+  font-weight: 600 !important;
+}
+
+.dropdown-menu {
+  border: 0px;
+  margin: 0px;
+}
+
+.homepage-videos {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+video.homepage-videos {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.homepage-benefits i {
+  font-size: 2em;
+}
+
+.call-to-action-floater{
+  position:fixed;
+  bottom: 150px;
+  right: 20px;
+}
+
+.submenu-heading{display:none;}
+@media only screen and (max-width: 1200px) {
+  .call-to-action-floater{bottom:170px;}
+  }
+@media only screen and (max-width: 992px) {
+  .call-to-action-floater{bottom:190px;}
+  .problem-statement{display:none;}
+  }
+@media only screen and (max-width: 767px) {
+  .call-to-action-floater{bottom:170px;}
+  }
+
+@media only screen and (max-width: 575px) {
+  .call-to-action-floater {bottom:20px;}
+  .submenu-heading{display:block;}
+  .footer-subnav{margin-bottom:0px !important}
+  .display-2{font-size:3.5rem;}
+  .footer b{margin-bottom:0px;}
+  .dropdown-item{padding:1rem 2rem;}
+  .navbar-nav > .active{background:#e3e3e3;}
+  .h-percent{
+    text-align:center;font-size:90px;opacity:0.5;line-height:2em;
+}
+
+
+  .homepage-benefits i {
+    font-size: 5em;
+  }
+  .homepage-benefits div div {
+    padding-bottom: 25px;
+  }
+  .background-left{background-size:cover !important}
+  .background-right{background-size:cover !important}
+  .nav-item {
+    font-weight: bold;
+    border-bottom: 1px solid #ccc !important;
+  }
+  .active .nav-link {
+    color: #C5D351 !important;
+    border-bottom: 0px !important;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 10px !important;
+  }
+  .nav-link i {
+    display: none;
+  }
+  .footer-row {
+    display: inline-block;
+    padding-left: 10px;
+  }
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+  .sub-nav-services {
+    position: static;
+  }
+  .sub-nav-services .nav-link {
+    width: 100%;
+    text-align: left;
+  }
+  .sub-nav-services .nav-link svg {
+    max-width: 14px;
+    display: inline-block;
+    min-height: 14px;
+    min-width: 14px;
+  }
+}
+
+.modal-backdrop {
+    z-index: 0;
+}
